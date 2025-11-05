@@ -154,3 +154,30 @@ function greeting(parameterVariable) {
   } while (true);
   console.log("LCM: ", lcm);
 }
+
+// "for loop"
+
+// Print all odd numbers from 1 to 10.
+let x;
+let product = 1;
+for (x = 1; x <= 10; x++) {
+  if (x % 2 != 0) {
+    // product = product * x;
+    product *= x;
+    console.log("Result is: " + product);
+  }
+}
+
+// inputs table number and length of table and then displays the table using for loop.
+
+let t = 5;
+let l = 10;
+let n;
+let m;
+for (n = 1; n <= 10; n++) {
+  m = t * n;
+  console.log(`${t} * ${n} = ${m}`);
+}
+
+// console.log("2 + 3");
+
